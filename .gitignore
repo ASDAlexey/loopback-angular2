@@ -1,0 +1,78 @@
+# Ignore project folders
+###################
+build
+
+# Ignore temp files
+###################
+3.28.73.flags.json
+
+# Ignore private settings
+###################
+builder/configs/config.private.json
+
+# Ignore Node & Bower
+###################
+node_modules
+bower_components
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.xap
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+# *.sdf
+*.mdf
+*.ldf
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+packages
+
+# Ignore Web Storm #
+.idea
+
+# Ignore Atom #
+###################
+.imdone
+
+# Ignore Visual Studio  Project #
+###################
+*.user
+*.gpState
+*.suo
+bin
+obj
+/packages
+
+# Ignore Visual Studio Code #
+###################
+.vscode
+typings
+jsconfig.json
+tsconfig.json
+/client/dist
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
