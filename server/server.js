@@ -1,7 +1,9 @@
-var loopback, boot, app;
-loopback = require('loopback');
-boot = require('loopback-boot');
-app = module.exports = loopback();
+var loopback = require('loopback'),
+    boot = require('loopback-boot'),
+    cors = require('cors'),
+    app = module.exports = loopback();
+
+app.use(cors());
 
 app.start = ()=> {
     return app.listen(()=> {
