@@ -1,6 +1,6 @@
 'use strict';
 import gulp from 'gulp';
-import nodemon from 'nodemon';
+import nodemon from 'gulp-nodemon';
 import path from 'path';
 
 var paths = {

@@ -10,7 +10,7 @@ import {bootstrap} from 'angular2/platform/browser';
 //noinspection TypeScriptCheckImport
 import {DIRECTIVES, PIPES, PROVIDERS} from './platform/browser';
 import {ENV_PROVIDERS} from './platform/environment';
-import {App} from './app/app';
+import {App} from './componets/app/app';
 
 /*
  * Bootstrap our Angular app with a top level component `App` and inject
