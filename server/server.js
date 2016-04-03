@@ -5,6 +5,9 @@ var path = require('path');
 var app = module.exports = loopback();
 
 app.set('views', path.resolve(__dirname, 'client'));
+// app.use("/styles",  loopback.static(__dirname + '/client/dist'));
+// app.use("/scripts", loopback.static(__dirname + '/client/dist'));
+// app.use("/images",  loopback.static(__dirname + '/client/dist'));
 
 app.start = function () {
     // start the web server
