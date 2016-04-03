@@ -1,0 +1,17 @@
+webpackJsonp([1],{
+
+/***/ 318:
+/***/ function(module, exports, __webpack_require__) {
+
+	eval("\"use strict\";\r\nfunction __export(m) {\r\n    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];\r\n}\r\n__export(__webpack_require__(605));\r\n//@ sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMzE4LmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL3NyYy9hcHAvYWJvdXQvaW5kZXgudHM/YjdiMSJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgKiBmcm9tICcuL2Fib3V0JztcclxuXG5cblxuLyoqIFdFQlBBQ0sgRk9PVEVSICoqXG4gKiogc3JjL2FwcC9hYm91dC9pbmRleC50c1xuICoqLyJdLCJtYXBwaW5ncyI6Ijs7OztBQUFBOyIsInNvdXJjZVJvb3QiOiIifQ==");
+
+/***/ },
+
+/***/ 605:
+/***/ function(module, exports, __webpack_require__) {
+
+	eval("\"use strict\";\r\nvar __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\r\n    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\r\n    if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\r\n    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\r\n    return c > 3 && r && Object.defineProperty(target, key, r), r;\r\n};\r\nvar __metadata = (this && this.__metadata) || function (k, v) {\r\n    if (typeof Reflect === \"object\" && typeof Reflect.metadata === \"function\") return Reflect.metadata(k, v);\r\n};\r\nvar core_1 = __webpack_require__(4);\r\n/*\r\n * We're loading this component asynchronously\r\n * We are using some magic with es6-promise-loader that will wrap the module with a Promise\r\n * see https://github.com/gdi2290/es6-promise-loader for more info\r\n */\r\nconsole.log('`About` component loaded asynchronously');\r\nvar About = (function () {\r\n    function About() {\r\n    }\r\n    About.prototype.ngOnInit = function () {\r\n        console.log('hello `About` component');\r\n    };\r\n    About = __decorate([\r\n        core_1.Component({\r\n            selector: 'about',\r\n            template: \"patrick@AngularClass.com About-page\"\r\n        }), \r\n        __metadata('design:paramtypes', [])\r\n    ], About);\r\n    return About;\r\n}());\r\nexports.About = About;\r\n//@ sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNjA1LmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL3NyYy9hcHAvYWJvdXQvYWJvdXQudHM/YzAzMCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0NvbXBvbmVudH0gZnJvbSAnYW5ndWxhcjIvY29yZSc7XHJcblxyXG4vKlxyXG4gKiBXZSdyZSBsb2FkaW5nIHRoaXMgY29tcG9uZW50IGFzeW5jaHJvbm91c2x5XHJcbiAqIFdlIGFyZSB1c2luZyBzb21lIG1hZ2ljIHdpdGggZXM2LXByb21pc2UtbG9hZGVyIHRoYXQgd2lsbCB3cmFwIHRoZSBtb2R1bGUgd2l0aCBhIFByb21pc2VcclxuICogc2VlIGh0dHBzOi8vZ2l0aHViLmNvbS9nZGkyMjkwL2VzNi1wcm9taXNlLWxvYWRlciBmb3IgbW9yZSBpbmZvXHJcbiAqL1xyXG5cclxuY29uc29sZS5sb2coJ2BBYm91dGAgY29tcG9uZW50IGxvYWRlZCBhc3luY2hyb25vdXNseScpO1xyXG5cclxuQENvbXBvbmVudCh7XHJcbiAgc2VsZWN0b3I6ICdhYm91dCcsXHJcbiAgdGVtcGxhdGU6IGBwYXRyaWNrQEFuZ3VsYXJDbGFzcy5jb20gQWJvdXQtcGFnZWBcclxufSlcclxuZXhwb3J0IGNsYXNzIEFib3V0IHtcclxuICBjb25zdHJ1Y3RvcigpIHtcclxuXHJcbiAgfVxyXG5cclxuICBuZ09uSW5pdCgpIHtcclxuICAgIGNvbnNvbGUubG9nKCdoZWxsbyBgQWJvdXRgIGNvbXBvbmVudCcpO1xyXG4gIH1cclxuXHJcbn1cclxuXG5cblxuLyoqIFdFQlBBQ0sgRk9PVEVSICoqXG4gKiogc3JjL2FwcC9hYm91dC9hYm91dC50c1xuICoqLyJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBO0FBRUE7Ozs7QUFJQTtBQUVBO0FBTUE7QUFDQTtBQUVBO0FBRUE7QUFDQTtBQUNBO0FBWEE7QUFBQTtBQUNBO0FBQ0E7QUFDQTs7QUFBQTtBQVVBO0FBQUE7QUFUQTsiLCJzb3VyY2VSb290IjoiIn0=");
+
+/***/ }
+
+});

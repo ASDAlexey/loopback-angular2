@@ -5,8 +5,8 @@ import path from 'path';
 
 var paths = {
     projectRoot: __dirname,
-    appRoot: path.join(__dirname, 'server'),
-    appCommons: path.join(__dirname, 'common')
+    appRoot: path.join(__dirname, '../server'),
+    appCommons: path.join(__dirname, '../common')
 };
 
 gulp.task('nodemon', (cb)=> {
