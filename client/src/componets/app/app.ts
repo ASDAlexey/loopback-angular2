@@ -3,19 +3,20 @@ import {RouteConfig, Router} from 'angular2/router';
 
 //noinspection TypeScriptCheckImport
 import {Constants} from "./services/constants";
+import {AuthService} from "../auth/services/auth.service";
 import {Home} from '../home';
-import {Login} from "../login/login";
+import {Auth} from "../auth/auth";
 
 @Component({
     selector: 'app',
     pipes: [],
-    providers: [Constants],
+    providers: [Constants, AuthService],
     directives: [],
     styles: [require('./app.css')],
     template: require('./app.html')
 })
 @RouteConfig([
-    {path: '/login', name: 'Login', component: Login, useAsDefault: true},
+    {path: '/login', name: 'Login', component: Auth, useAsDefault: true},
     {path: '/home', name: 'Home', component: Home}
     // {path: '/logout', name: 'Logout', component: Logout},
     // {path: '/home', name: 'Home', component: Home, useAsDefault: true},
@@ -72,8 +73,13 @@ import {Login} from "../login/login";
  templateUrl: 'views/sign-up-success.html'
  });*/
 export class App {
+    response;
     name = 'Angular 2 Webpack Starter33358';
 
-    constructor() {
+    constructor(private _AuthService:AuthService) {
+    }
+
+    logout() {
+        this._AuthService.logout();
     }
 }

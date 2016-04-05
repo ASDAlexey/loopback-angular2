@@ -15,12 +15,15 @@
              <li [hidden]="!currentUser">
                  <a [routerLink]="['add-review']">Add Review</a>
              </li>-->
-            <li [hidden]="currentUser">
+            <li>
                 <a [routerLink]="['Login']">Log in</a>
             </li>
-           <!-- <li [hidden]="!currentUser">
-                <a [routerLink]="['logout']">Log out</a>
-            </li>-->
+            <li>
+                <a (click)="logout()">Logout</a>
+            </li>
+            <!-- <li [hidden]="!currentUser">
+                 <a [routerLink]="['logout']">Log out</a>
+             </li>-->
         </ul>
     </nav>
 </header>
