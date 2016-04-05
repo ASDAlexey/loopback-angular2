@@ -2,15 +2,17 @@ import {Injectable} from 'angular2/core';
 import {Http, Headers} from "angular2/http";
 import {Observable} from "rxjs/Observable";
 import 'rxjs/Rx'
+import {Constants} from "../../app/services/constants";
 @Injectable()
+
 export class HttpService {
-    constructor(private _http:Http) {
+    constructor(private _http:Http, private constants:Constants) {
     }
 
     getPosts():Observable<any> {
         var headers = new Headers();
-        headers.append('X-Requested-With', 'XMLHttpRequest');
-        return this._http.get('http://localhost:3000/api/CoffeeShops', {headers: headers}).map(res => res.json())
+        headers.append('Content-Type', 'application/json');
+        return this._http.get(`${this.constants.base_url}/api/CoffeeShops`, {headers: headers}).map(res => res.json())
     }
 
     createPost(post:{title:string,body:string,userId:number}):Observable<any> {
